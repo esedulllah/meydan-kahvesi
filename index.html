@@ -59,10 +59,95 @@
         .mac a {
             color: darkblue;
         }
-        .kadro p {
-            margin: 4px 0;
+        .mac-karti {
+            margin-top: 30px;
+            padding: 24px;
+            background-color: darkblue;
+            color: white;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .mac-ust, .mac-alt {
+            margin: 0;
+            font-size: 14px;
+        }
+        .mac-ust b {
+            color: yellow;
+        }
+        .takimlar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+            margin: 20px 0;
+        }
+        .takim {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            width: 140px;
+            font-size: 20px;
+        }
+        .arma {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            font-weight: bold;
+            font-size: 22px;
+            border: 3px solid white;
+        }
+        .arma.fb {
+            background: linear-gradient(90deg, yellow 50%, #1d3fbf 50%);
+            color: darkblue;
+            text-shadow: 0 0 3px white;
+        }
+        .arma.gs {
+            background: linear-gradient(90deg, #f9b000 50%, #a90432 50%);
+            color: white;
+            text-shadow: 0 0 3px black;
+        }
+        .vs {
+            font-size: 28px;
+            font-weight: bold;
+            color: yellow;
+        }
+        .kadro {
+            background-color: rgba(255, 255, 255, 0.5);
+            border: 2px solid darkblue;
+            border-radius: 8px;
+            padding: 16px 20px;
+        }
+        .kadro h3 {
+            margin-top: 0;
+        }
+        .kadro h3 small {
+            font-weight: normal;
+        }
+        .kadro ol {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .kadro li {
+            padding: 6px 0;
+            border-bottom: 1px solid rgba(0, 0, 139, 0.2);
+        }
+        .kadro li:last-child {
+            border-bottom: none;
+        }
+        .kadro li span {
+            display: inline-block;
+            width: 32px;
+            font-size: 12px;
+            font-weight: bold;
+            opacity: 0.7;
         }
         .sutunlar {
+            margin-top: 30px;
             display: flex;
             flex-wrap: wrap;
             gap: 30px;
@@ -175,44 +260,55 @@
             <!-- Maç günü resmi -->
             <img class="resim" src="gorseller/mac.svg" alt="Maç günü kafede">
 
-            <hr>
+            <div class="mac-karti">
+                <p class="mac-ust">Trendyol Süper Lig · 11. Hafta · <b>Bu akşam 20:00</b></p>
+                <div class="takimlar">
+                    <div class="takim">
+                        <span class="arma fb">FB</span>
+                        <strong>Fenerbahçe</strong>
+                    </div>
+                    <span class="vs">VS</span>
+                    <div class="takim">
+                        <span class="arma gs">GS</span>
+                        <strong>Galatasaray</strong>
+                    </div>
+                </div>
+                <p class="mac-alt">Dev ekran · Masalar 19:00’da dolar, erken gel!</p>
+            </div>
 
             <div class="sutunlar">
-                <div>
-                    <h3>Spor Toto Süper Lig</h3>
+                <div class="kadro">
+                    <h3>Fenerbahçe İlk 11 <small>(4-2-3-1)</small></h3>
                     <ol>
-                        <li>Fenerbahçe</li>
-                        <li>Beşiktaş</li>
-                        <li>Trabzonspor</li>
-                        <li>Galatasaray</li>
+                        <li><span>K</span> Ederson</li>
+                        <li><span>D</span> Nelson Semedo</li>
+                        <li><span>D</span> Milan Skriniar</li>
+                        <li><span>D</span> Nathan Ake</li>
+                        <li><span>D</span> Archie Brown</li>
+                        <li><span>OS</span> Fred</li>
+                        <li><span>OS</span> Matteo Guendouzi</li>
+                        <li><span>OS</span> Mason Greenwood</li>
+                        <li><span>OS</span> Marco Asensio</li>
+                        <li><span>OS</span> Kerem Aktürkoğlu</li>
+                        <li><span>F</span> Vedat Muriqi</li>
                     </ol>
-
-                    <h3>Ziraat Türkiye Kupası</h3>
-                    <dl>
-                        <dt>Format</dt>
-                        <dd>- Her galibiyette 3 puan eklenir</dd>
-                    </dl>
-
-                    <h3>Şampiyonlar Ligi</h3>
-                    <ul>
-                        <li>Fenerbahçe</li>
-                        <li>Shakhtar Donetsk</li>
-                        <li>Liverpool</li>
-                        <li>Atletico Madrid</li>
-                    </ul>
                 </div>
 
                 <div class="kadro">
-                    <h3>Kadro</h3>
-                    <p><b>Ederson</b></p>
-                    <p>Milan <mark style="color: darkblue;">Skriniar</mark></p>
-                    <p><i>Nathan Ake</i></p>
-                    <p><em>Nelson Semedo</em></p>
-                    <p>Archie <del>Brown</del></p>
-                    <p>Matteo <ins>Guendouzi</ins></p>
-                    <p><small>Marco Asensio</small></p>
-                    <p>Vedat <sub>Muriqi</sub></p>
-                    <p>Mason <sup>Greenwood</sup></p>
+                    <h3>Galatasaray İlk 11 <small>(4-2-3-1)</small></h3>
+                    <ol>
+                        <li><span>K</span> Uğurcan Çakır</li>
+                        <li><span>D</span> Wilfried Singo</li>
+                        <li><span>D</span> Davinson Sánchez</li>
+                        <li><span>D</span> Abdülkerim Bardakcı</li>
+                        <li><span>D</span> Eren Elmalı</li>
+                        <li><span>OS</span> Lucas Torreira</li>
+                        <li><span>OS</span> Gabriel Sara</li>
+                        <li><span>OS</span> Leroy Sané</li>
+                        <li><span>OS</span> İlkay Gündoğan</li>
+                        <li><span>OS</span> Barış Alper Yılmaz</li>
+                        <li><span>F</span> Victor Osimhen</li>
+                    </ol>
                 </div>
             </div>
 
