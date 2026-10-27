@@ -70,6 +70,41 @@
         .sutunlar > div {
             flex: 1 1 250px;
         }
+        .resmi-site {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            margin-top: 30px;
+            padding: 20px 24px;
+            background-color: darkblue;
+            color: white;
+            border-radius: 8px;
+        }
+        .resmi-site h3 {
+            margin: 0;
+            color: yellow;
+        }
+        .resmi-site p {
+            margin: 4px 0 0;
+        }
+        .mac .resmi-site .buton {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: yellow;
+            color: darkblue;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: transform 0.15s;
+        }
+        .mac .resmi-site .buton:hover,
+        .mac .resmi-site .buton:focus {
+            transform: translateY(-2px);
+            outline: 2px solid white;
+            outline-offset: 2px;
+        }
     </style>
 </head>
 <body>
@@ -178,8 +213,15 @@
                     <p><small>Marco Asensio</small></p>
                     <p>Vedat <sub>Muriqi</sub></p>
                     <p>Mason <sup>Greenwood</sup></p>
-                    <p><a href="https://www.fenerbahce.org/" target="_top" title="Fenerbahçe Resmi Sitesi">Fenerbahçe Resmi Sitesi</a></p>
                 </div>
+            </div>
+
+            <div class="resmi-site">
+                <div>
+                    <h3>Fenerbahçe Resmi Sitesi</h3>
+                    <p>Fikstür, kadro ve son haberler için kulübün resmi sitesine göz at.</p>
+                </div>
+                <a class="buton" href="https://www.fenerbahce.org/" target="_blank" rel="noopener" title="Fenerbahçe Resmi Sitesi (yeni sekmede açılır)">Siteye Git ↗</a>
             </div>
 
         </div>
