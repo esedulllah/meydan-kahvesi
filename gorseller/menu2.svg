@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice">
+  <rect width="400" height="220" fill="#2f3b4a"/>
+  <g stroke="#3a4859" stroke-width="2"><path d="M0 44h400M0 88h400M0 132h400M0 176h400"/></g>
+  <!-- ahşap servis tahtası -->
+  <rect x="20" y="40" width="300" height="150" rx="16" fill="#b07a45"/>
+  <rect x="28" y="48" width="284" height="134" rx="12" fill="#c48a52"/>
+  <g stroke="#a8703c" stroke-width="2" opacity=".7"><path d="M36 80h270M36 120h270M36 156h270"/></g>
+  <!-- mozzarella sticks -->
+  <g>
+    <rect x="44" y="62" width="96" height="20" rx="10" fill="#d98e2f" transform="rotate(-8 92 72)"/>
+    <rect x="48" y="88" width="96" height="20" rx="10" fill="#e09a38" transform="rotate(-4 96 98)"/>
+    <rect x="46" y="114" width="96" height="20" rx="10" fill="#d98e2f" transform="rotate(2 94 124)"/>
+    <path d="M140 92c8 2 10 8 18 8" stroke="#fff4d6" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <g fill="#a85f1c" opacity=".6"><circle cx="70" cy="70" r="2"/><circle cx="100" cy="96" r="2"/><circle cx="84" cy="122" r="2"/><circle cx="118" cy="68" r="2"/></g>
+  </g>
+  <!-- soğan halkaları -->
+  <g fill="none" stroke-width="11">
+    <ellipse cx="200" cy="80" rx="28" ry="22" stroke="#d4902f"/>
+    <ellipse cx="236" cy="100" rx="26" ry="20" stroke="#e3a43f"/>
+    <ellipse cx="196" cy="120" rx="24" ry="18" stroke="#cf8a2a"/>
+  </g>
+  <!-- sigara böreği -->
+  <g>
+    <rect x="70" y="150" width="90" height="22" rx="11" fill="#e8b45e" transform="rotate(-6 115 161)"/>
+    <rect x="160" y="148" width="90" height="22" rx="11" fill="#f0c06c" transform="rotate(4 205 159)"/>
+    <path d="M90 154l8 14M118 150l8 14M182 150l8 14M212 152l8 14" stroke="#c9913d" stroke-width="2"/>
+  </g>
+  <!-- sos kasesi -->
+  <ellipse cx="272" cy="68" rx="24" ry="16" fill="#eeeeee"/>
+  <ellipse cx="272" cy="66" rx="18" ry="11" fill="#c0392b"/>
+  <!-- kola -->
+  <path d="M330 70h48l-6 126h-36z" fill="#3b1a0e" stroke="#d6e4ee" stroke-width="3" opacity=".95"/>
+  <rect x="338" y="80" width="10" height="14" fill="#cfe3ef" opacity=".7" transform="rotate(10 343 87)"/>
+  <rect x="354" y="98" width="10" height="12" fill="#cfe3ef" opacity=".6"/>
+  <path d="M362 70l12-40" stroke="#e74c3c" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#d9a46e" opacity=".8"><circle cx="344" cy="130" r="2"/><circle cx="358" cy="150" r="2"/><circle cx="350" cy="170" r="2"/></g>
+</svg>

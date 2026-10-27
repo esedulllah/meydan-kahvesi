@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="duvar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a5a3a"/><stop offset="1" stop-color="#5c4128"/>
+    </linearGradient>
+    <linearGradient id="gok" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6c66b"/><stop offset="1" stop-color="#e98c4a"/>
+    </linearGradient>
+    <radialGradient id="isik" cx=".5" cy="0" r=".9">
+      <stop offset="0" stop-color="#ffe9a8" stop-opacity=".55"/><stop offset="1" stop-color="#ffe9a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="960" height="300" fill="url(#duvar)"/>
+  <!-- ahşap lambri -->
+  <rect y="190" width="960" height="110" fill="#4a3220"/>
+  <g stroke="#3a2617" stroke-width="3">
+    <path d="M0 190h960"/><path d="M60 190v110M180 190v110M300 190v110M420 190v110M540 190v110M660 190v110M780 190v110M900 190v110"/>
+  </g>
+  <!-- pencereler: meydan manzarası -->
+  <g>
+    <rect x="70" y="40" width="190" height="130" rx="6" fill="url(#gok)" stroke="#3a2617" stroke-width="8"/>
+    <path d="M78 150l30-40 22 18 30-46 34 42 26-20 32 46v8H78z" fill="#8c5a3c" opacity=".7"/>
+    <path d="M165 40v130M70 105h190" stroke="#3a2617" stroke-width="6"/>
+    <rect x="700" y="40" width="190" height="130" rx="6" fill="url(#gok)" stroke="#3a2617" stroke-width="8"/>
+    <path d="M708 160h174v2H708z M740 160v-60h14v60zM760 100a20 20 0 0 1 40 0v60h-40zM820 160v-50h16v50z" fill="#8c5a3c" opacity=".7"/>
+    <path d="M795 40v130M700 105h190" stroke="#3a2617" stroke-width="6"/>
+  </g>
+  <!-- duvardaki TV -->
+  <rect x="380" y="34" width="200" height="118" rx="6" fill="#1a1a1a"/>
+  <rect x="390" y="44" width="180" height="98" fill="#2e7d32"/>
+  <g fill="none" stroke="#e8f5e9" stroke-width="2" opacity=".85">
+    <rect x="398" y="52" width="164" height="82"/><path d="M480 52v82"/><circle cx="480" cy="93" r="14"/>
+  </g>
+  <circle cx="455" cy="100" r="4" fill="#fff"/>
+  <!-- lambalar -->
+  <g>
+    <path d="M300 0v48M660 0v48" stroke="#2a1b10" stroke-width="2"/>
+    <path d="M284 48h32l-6 16h-20zM644 48h32l-6 16h-20z" fill="#d9a441"/>
+    <ellipse cx="300" cy="140" rx="160" ry="110" fill="url(#isik)"/>
+    <ellipse cx="660" cy="140" rx="160" ry="110" fill="url(#isik)"/>
+  </g>
+  <!-- masalar ve sandalyeler -->
+  <g id="masa">
+    <rect x="140" y="214" width="150" height="12" rx="3" fill="#a0522d"/>
+    <rect x="208" y="226" width="14" height="60" fill="#5a2f17"/>
+    <rect x="186" y="282" width="58" height="8" rx="3" fill="#5a2f17"/>
+    <path d="M118 290v-56h10v20h30v36h-8v-26h-24v26z" fill="#2f2a22"/>
+    <path d="M312 290v-56h-10v20h-30v36h8v-26h24v26z" fill="#2f2a22"/>
+    <!-- çay bardakları -->
+    <path d="M176 196h14c0 4-3 6-3 9s3 5 2 9h-12c-1-4 2-6 2-9s-3-5-3-9z" fill="#b5401e"/>
+    <path d="M238 196h14c0 4-3 6-3 9s3 5 2 9h-12c-1-4 2-6 2-9s-3-5-3-9z" fill="#b5401e"/>
+    <ellipse cx="183" cy="214" rx="11" ry="2.5" fill="#eee"/>
+    <ellipse cx="245" cy="214" rx="11" ry="2.5" fill="#eee"/>
+  </g>
+  <use href="#masa" x="270"/>
+  <use href="#masa" x="540"/>
+</svg>
